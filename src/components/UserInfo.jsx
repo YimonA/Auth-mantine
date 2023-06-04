@@ -11,7 +11,7 @@ const UserInfo = () => {
   console.log(data);
   return (
     <div className=" flex justify-center items-center h-screen">
-      <div className=" flex flex-col gap-5 p-7 shadow-lg w-56">
+      <div className=" flex flex-col items-center gap-5 p-7 shadow-lg w-96">
         <img
           src={
             data?.contact?.photo === null
@@ -26,7 +26,7 @@ const UserInfo = () => {
         <p>{data?.contact?.phone}</p>
         <p>{data?.contact?.address}</p>
         <Link to={"/"}>
-          <button type="submit" className=" bg-blue-700 text-white px-4 py-1 w-full">
+          <button type="submit" className=" bg-blue-700 text-white px-4 py-1 w-80">
             Back
           </button>
         </Link>

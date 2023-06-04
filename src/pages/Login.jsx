@@ -46,7 +46,7 @@ const Login = () => {
         })}
         className=" w-96 p-7 flex flex-col shadow-lg gap-10"
       >
-        <h2 className="text-2xl text-gray-500 font-semibold">Login</h2>
+        <h2 className="flex justify-center text-2xl text-gray-500 font-semibold">Login</h2>
         <TextInput
           {...form.getInputProps("email")}
           withAsterisk

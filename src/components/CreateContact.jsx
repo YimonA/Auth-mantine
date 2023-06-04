@@ -49,7 +49,7 @@ const CreateContact = () => {
         })}
         className=" w-96 p-7 flex flex-col shadow-lg gap-10"
       >
-        <h2 className="text-2xl text-gray-500 font-semibold">Create Contact</h2>
+        <h2 className="text-2xl text-gray-500 font-semibold mx-auto">Create Contact</h2>
         <TextInput
           {...form.getInputProps("name")}
           placeholder="Enter your Name..."

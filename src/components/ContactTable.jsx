@@ -15,7 +15,7 @@ import { Menu, Button, rem } from "@mantine/core";
 const ContactTable = () => {
   const token = Cookies.get("token");
   const { data, isLoading } = useGetContactQuery(token);
-  console.log(data?.contacts?.data);
+  console.log("dc",data?.contacts?.data);
 
   const [deleteContact] = useDeleteContactMutation();
   const dispatch = useDispatch();
